@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dosis:wght@200..800&display=swap');
+
+*{
+  font-family: Dosis;
+}
+
+.project-card{
+    
+    width: 90%;
+    background-color: rgb(60, 141, 212);
+    padding: 1%;
+    border-radius: 10px;
+    transition: all 0.2s;
+    transform:none;
+    /* margin: 2%; */
+
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;    
+  gap: 30px;           
+}
+.project-card:hover{
+    transform: rotateZ(0.5deg) ;
+    background-color: rgb(57, 122, 179);
+}
+
+.project-card {
+  color: white;
+  flex: 1 1 calc(50% - 20px); /* 2 per row, minus gap */
+  box-sizing: border-box;
+}
+.project-card img{
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.project-card button{
+    width: 40%;
+    background-color: white;
+    margin:2%;
+    padding: 1%;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size:clamp(10px, 2vw, 100px); ;
+    border: 2px solid #000000; /* cool blue border */
+transition: all 0.2s;
+}
+.project-card button:hover{
+      background-color: rgb(82, 78, 78);
+       color: white
+
+}
+.project-card p {
+font-size: clamp(10px, 2vw, 100px);
+margin: 1%;
+font-weight: 200;
+}
+.projectTitle{
+font-size: clamp(10px, 3vw, 100px);
+margin: 1%;
+margin-left: 0%;
+font-weight: 500;
+}
+.projectPageButton{
+  width: 40%;
+    background-color: white;
+    margin-top:2%;
+    padding: 1%;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size:clamp(10px, 2vw, 100px); ;
+    border: 2px solid #000000; /* cool blue border */
+transition: all 0.2s;
+}
+.projectPageButton:hover{
+      background-color: rgb(82, 78, 78);
+       color: white
+
+}
+.projectDesc{
+
+  font-size: clamp(10px, 1.5vw, 100px);
+}
+.projectPageImage{
+  position: absolute;
+  width: 40%;
+    border-radius: 10px;
+    /* display: flex; */
+    justify-self: right;
+    left: 55%;
+}
