@@ -15,7 +15,7 @@
     /* margin: 2%; */
 
 }
-
+p{font-size: larger;}
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;    
@@ -93,4 +93,15 @@ transition: all 0.2s;
     /* display: flex; */
     justify-self: right;
     left: 55%;
+}
+#robloxPlays{
+   position: absolute;
+  width: 40%;
+    border-radius: 10px;
+    /* display: flex; */
+    justify-self: right;
+    left: 55%;
+    top:50%;
+    font-size: larger;
+    font-weight: 600;
 }

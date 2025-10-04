@@ -12,7 +12,7 @@ export default function ProjectItem({ project }) {
 
             <button
                 className="projectPageButton"
-                onClick={() => window.open(project.link, "_blank")}
+                onClick={() => window.open(project.link)}
             >
                 View
             </button>
