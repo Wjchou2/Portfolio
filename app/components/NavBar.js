@@ -7,7 +7,7 @@ export default function Navbar() {
                 <div id="logoArea">
                     <img id="imagelogo" src="/images/logo.webp"></img>
                     <a href="/home" id="NavBarLogo">
-                        William Chou
+                        Endless
                     </a>
                 </div>
                 <div>
